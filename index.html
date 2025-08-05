@@ -3,147 +3,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AIプログラミング学習コミュニティ</title>
+    <title>エタデ ルール解説</title>
     <style>
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #fdf6f6;
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+            line-height: 1.8;
             color: #333;
-            line-height: 1.6;
-            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('aig-ai221017313-xl_TP_V.webp');
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-        }
-        .container {
-            max-width: 960px;
-            margin: 0 auto;
+            background-color: #f9f9f9;
+            margin: 0;
             padding: 20px;
         }
-        .header {
-            background-color: #c0392b; /* Deep Red */
-            color: #ffffff;
-            text-align: center;
-            padding: 4rem 1rem;
-            border-radius: 0 0 10px 10px;
-            background-color: transparent; /* Make header transparent to see background */
-        }
-        .header h1 {
-            font-size: 2.8rem;
-            margin: 0;
-            color: #fff; /* Ensure text is white */
-        }
-        .header p {
-            font-size: 1.2rem;
-            opacity: 0.9;
-            margin-top: 0.5rem;
-            color: #fff; /* Ensure text is white */
-        }
-        .cta-button {
-            display: inline-block;
-            background-color: #e74c3c; /* Bright Red */
-            color: #fff;
-            padding: 15px 35px;
-            font-size: 1.1rem;
-            font-weight: bold;
-            text-decoration: none;
-            border-radius: 5px;
-            margin-top: 2rem;
-            transition: background-color 0.3s ease, transform 0.3s ease;
-        }
-        .cta-button:hover {
-            background-color: #a93226; /* Darker Red */
-            transform: translateY(-2px);
-        }
-        .section {
-            padding: 4rem 1rem;
-            text-align: center;
-            background-color: rgba(255, 255, 255, 0.9);
-            margin: 2rem 0;
-            border-radius: 10px;
-        }
-        .section h2 {
-            font-size: 2.2rem;
-            margin-bottom: 2rem;
-            color: #a93226; /* Dark Red */
-        }
-        .features {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 2rem;
-        }
-        .feature {
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
             background-color: #fff;
-            padding: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-            flex-basis: 300px;
-            text-align: left;
-        }
-        .feature h3 {
-            font-size: 1.4rem;
-            color: #c0392b; /* Deep Red */
-            margin-top: 0;
-        }
-        .join-section {
-            background-color: rgba(251, 238, 230, 0.95); /* Light Red/Pink with opacity */
-            padding: 4rem 1rem;
-            text-align: center;
+            padding: 30px;
             border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
         }
-        .footer {
+        h1, h2, h3 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h1 {
             text-align: center;
-            padding: 2rem 1rem;
-            margin-top: 2rem;
-            font-size: 0.9rem;
-            color: #eee;
-            background-color: rgba(0, 0, 0, 0.6);
+            font-size: 2.5em;
+        }
+        h2 {
+            font-size: 1.8em;
+            margin-top: 40px;
+        }
+        h3 {
+            font-size: 1.4em;
+            border-bottom: none;
+            color: #3498db;
+        }
+        p, li {
+            font-size: 1.1em;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            background-color: #ecf0f1;
+            margin-bottom: 10px;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        strong {
+            color: #e74c3c;
+        }
+        .highlight {
+            background-color: #f1c40f;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .catch-phrase {
+            text-align: center;
+            font-size: 1.5em;
+            color: #3498db;
+            margin: 40px 0;
+            padding: 20px;
+            border: 2px dashed #3498db;
             border-radius: 10px;
         }
     </style>
 </head>
 <body>
-
-    <header class="header">
-        <h1>AIと共に未来を創る、次世代の学び場へようこそ</h1>
-        <p>初心者から経験者まで、誰もがAIプログラミングを学び、実践できるコミュニティです。</p>
-        <!-- TODO: "your-invite-code" をあなたのDiscord招待コードに書き換えてください -->
-        <a href="https://discord.gg/your-invite-code" class="cta-button" target="_blank">Discordでコミュニティに参加する</a>
-    </header>
-
     <div class="container">
-        <section class="section">
-            <h2>このコミュニティで得られること</h2>
-            <div class="features">
-                <div class="feature">
-                    <h3>体系的な学習コンテンツ</h3>
-                    <p>AIの基礎から最新の機械学習モデルまで、段階的に学べるオリジナル教材を用意。自分のペースで学習を進められます。</p>
-                </div>
-                <div class="feature">
-                    <h3>仲間との共同プロジェクト</h3>
-                    <p>学んだ知識を活かして、チームで実践的なプロジェクトに挑戦。ポートフォリオに残る実績を作ることができます。</p>
-                </div>
-                <div class="feature">
-                    <h3>現役エンジニアによるサポート</h3>
-                    <p>分からないことはいつでも質問可能。経験豊富なメンターが、あなたの学習を強力にバックアップします。</p>
-                </div>
-            </div>
-        </section>
+        <h1>ようこそ、エタデの世界へ！</h1>
+        <p>
+            「エタデ」は、プレイヤー全員で力を合わせ、ステージクリアを目指す<strong>協力型カードゲーム</strong>です。
+            仲間と知恵を出し合い、神秘の生命体「エターナルズ」を復活させ、迫りくる呪いを解き明かしましょう！
+        </p>
+        <p class="catch-phrase">
+            さあ、仲間と共に未知なる冒険へ旅立とう！
+        </p>
 
-        <section class="join-section">
-            <h2>今すぐ参加して、AIプログラミングの第一歩を踏み出そう</h2>
-            <p>必要なのは「学びたい」という気持ちだけ。私たちと一緒に、新しいスキルを身につけませんか？</p>
-            <!-- TODO: "your-invite-code" をあなたのDiscord招待コードに書き換えてください -->
-            <a href="https://discord.gg/your-invite-code" class="cta-button" target="_blank">無料ではじめる</a>
-        </section>
+        <h2>ゲームの目的：伝説の全6ステージを制覇せよ！</h2>
+        <p>
+            このゲームの目的は、AからFまで、それぞれ異なる謎と魅力に満ちた<span class="highlight">全6ステージをクリアすること</span>です。
+            ステージごとにクリア条件は様々。例えばステージAでは、場に「スター」を4つ集めることが目標となります。君はすべての謎を解き明かし、最終ステージにたどり着けるでしょうか？
+        </p>
+
+        <h2>ゲームの準備：冒険の始まり</h2>
+        <ul>
+            <li><strong>初期デッキ：</strong>各プレイヤーは、数字の1から5までのカード5枚を「初期デッキ」として受け取ります。これが冒険の元手です！</li>
+            <li><strong>手札：</strong>デッキから3枚のカードを引き、自分の手札とします。この手札が、君の魔法の呪文となります。</li>
+            <li><strong>プレイ人数：</strong>1人から4人まで。いつでも冒険に出かけられます！</li>
+        </ul>
+
+        <h2>ゲームの流れ：仲間との連携が勝利の鍵！</h2>
+        <p>
+            時計回りに順番に手番を行います。自分の手番でできることは、たった一つ！
+        </p>
+        <ul>
+            <li><strong>カードを出す：</strong>手札から1枚選び、場にある3つの列のいずれかに配置します。</li>
+        </ul>
+        <p>
+            ただし、カードを置ける場所にはルールがあります。列ごとに「カードの数字が大きくなるように（昇順）」または「小さくなるように（降順）」という決まりを守らなくてはなりません。
+        </p>
+        <p class="catch-phrase">
+            仲間と相談しながら、最適な一枚を見つけ出せ！<br>
+            <small>（ただし、手札の具体的な数字や色を教えるのは禁止！ヒントを出し合って、心を通わせよう）</small>
+        </p>
+
+        <h3>エターナルズの復活：新たな力をその手に！</h3>
+        <p>
+            場の奥までカードを配置できると、神秘の生命体「エターナルズ」が復活！<br>
+            復活を成功させたプレイヤーは、ご褒美として<span class="highlight">新たなデッキ（カード8枚）</span>を獲得できます。手札が尽きると負けてしまうので、誰がどのタイミングでエターナルズを復活させるかが、運命の分かれ道です。
+        </p>
+        <p class="catch-phrase">
+            君の力で、伝説のエターナルズを呼び覚まそう！
+        </p>
+
+        <h3>呪いの恐怖：迫りくる試練</h3>
+        <p>
+            しかし、強力な力を手に入れるには代償が伴うもの…。エターナルズが復活すると、場に「呪い」と呼ばれる新たな配置制限が追加されてしまいます。
+            この呪いは、手札のカードを消費して「ジュエル」を生み出し、エターナルズに捧げることで解除できます。
+        </p>
+        <p class="catch-phrase">
+            迫りくる呪いを打ち破り、勝利への道を切り開け！
+        </p>
+
+        <h2>ゲームの終わり：栄光の勝利、あるいは…</h2>
+        <ul>
+            <li><strong>勝利条件：</strong>現在のステージのクリア条件を満たせば、見事勝利！次のステージへ進むことができます。</li>
+            <li><strong>敗北条件：</strong>誰か一人が、自分の手番でカードを1枚も出せなくなってしまったら、全員の敗北です…。</li>
+        </ul>
+        <p>
+            あきらめずに、何度でも挑戦してみてくださいね！
+        </p>
     </div>
-
-    <footer class="footer">
-        <p>&copy; 2025 AIプログラミング学習コミュニティ. All Rights Reserved.</p>
-    </footer>
-
 </body>
 </html>
